@@ -11,6 +11,8 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic, strong) PXAPIHelper *apiHelper;
+
 @end
 
 @implementation AppDelegate
@@ -25,6 +27,8 @@
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:galleryVC];
 
     [self.window makeKeyAndVisible];
+
+    self.apiHelper = [[PXAPIHelper alloc] initWithHost:nil consumerKey:@"" consumerSecret:@""];
 
     return YES;
 }

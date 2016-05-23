@@ -17,5 +17,5 @@
 
 // App Delegate
 #import "AppDelegate.h"
-#define MyAppDelegate ((FRPAppDelegate *)[[UIApplication sharedApplication] delegate])
+#define MyAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 

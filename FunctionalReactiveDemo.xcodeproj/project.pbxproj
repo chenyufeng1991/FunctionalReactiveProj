@@ -14,6 +14,8 @@
 		71436DD81CF2EF3F00A2D872 /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436DD61CF2EF3F00A2D872 /* FRPGalleryViewController.m */; };
 		71436DD91CF2EF3F00A2D872 /* FRPGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71436DD71CF2EF3F00A2D872 /* FRPGalleryViewController.xib */; };
 		71436DDC1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */; };
+		71436E071CF309AC00A2D872 /* FRPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436E061CF309AC00A2D872 /* FRPPhotoModel.m */; };
+		71436E0A1CF30A8100A2D872 /* FRPPhotoImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436E091CF30A8100A2D872 /* FRPPhotoImporter.m */; };
 		F0ACF070CFA5B0D899B963B3 /* libPods-FunctionalReactiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BCFD44A92D60862142E9DB /* libPods-FunctionalReactiveDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,10 @@
 		71436DDA1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
 		71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
 		71436E041CF3029500A2D872 /* FunctionReactiveDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FunctionReactiveDemo-Prefix.pch"; path = "../FunctionReactiveDemo-Prefix.pch"; sourceTree = "<group>"; };
+		71436E051CF309AC00A2D872 /* FRPPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoModel.h; sourceTree = "<group>"; };
+		71436E061CF309AC00A2D872 /* FRPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoModel.m; sourceTree = "<group>"; };
+		71436E081CF30A8100A2D872 /* FRPPhotoImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoImporter.h; sourceTree = "<group>"; };
+		71436E091CF30A8100A2D872 /* FRPPhotoImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoImporter.m; sourceTree = "<group>"; };
 		A9BCFD44A92D60862142E9DB /* libPods-FunctionalReactiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalReactiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +90,10 @@
 				71436DD71CF2EF3F00A2D872 /* FRPGalleryViewController.xib */,
 				71436DDA1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.h */,
 				71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */,
+				71436E051CF309AC00A2D872 /* FRPPhotoModel.h */,
+				71436E061CF309AC00A2D872 /* FRPPhotoModel.m */,
+				71436E081CF30A8100A2D872 /* FRPPhotoImporter.h */,
+				71436E091CF30A8100A2D872 /* FRPPhotoImporter.m */,
 				71436DCA1CF2ED7B00A2D872 /* Assets.xcassets */,
 				71436DCC1CF2ED7B00A2D872 /* LaunchScreen.storyboard */,
 				71436DCF1CF2ED7B00A2D872 /* Info.plist */,
@@ -231,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71436E071CF309AC00A2D872 /* FRPPhotoModel.m in Sources */,
 				71436DD81CF2EF3F00A2D872 /* FRPGalleryViewController.m in Sources */,
 				71436DC31CF2ED7B00A2D872 /* AppDelegate.m in Sources */,
+				71436E0A1CF30A8100A2D872 /* FRPPhotoImporter.m in Sources */,
 				71436DC01CF2ED7B00A2D872 /* main.m in Sources */,
 				71436DDC1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m in Sources */,
 			);

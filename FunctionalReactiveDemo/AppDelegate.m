@@ -11,7 +11,6 @@
 
 @interface AppDelegate ()
 
-@property (nonatomic, strong) PXAPIHelper *apiHelper;
 
 @end
 

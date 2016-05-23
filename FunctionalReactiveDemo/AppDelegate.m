@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FRPGalleryViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +16,13 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor blackColor];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    FRPGalleryViewController *galleryVC = [[FRPGalleryViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:galleryVC];
 
     [self.window makeKeyAndVisible];
 

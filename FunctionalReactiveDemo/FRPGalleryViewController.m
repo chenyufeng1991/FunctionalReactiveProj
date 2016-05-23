@@ -7,6 +7,7 @@
 //
 
 #import "FRPGalleryViewController.h"
+#import "FRPGalleryFlowLayout.h"
 
 @interface FRPGalleryViewController ()
 
@@ -15,6 +16,17 @@
 @implementation FRPGalleryViewController
 
 static NSString * const reuseIdentifier = @"Cell";
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        FRPGalleryFlowLayout *flowLayout = [[FRPGalleryFlowLayout alloc] init];
+        self = [self initWithCollectionViewLayout:flowLayout];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,7 +37,6 @@ static NSString * const reuseIdentifier = @"Cell";
     // Register cell classes
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

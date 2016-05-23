@@ -13,6 +13,7 @@
 		71436DCE1CF2ED7B00A2D872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71436DCC1CF2ED7B00A2D872 /* LaunchScreen.storyboard */; };
 		71436DD81CF2EF3F00A2D872 /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436DD61CF2EF3F00A2D872 /* FRPGalleryViewController.m */; };
 		71436DD91CF2EF3F00A2D872 /* FRPGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71436DD71CF2EF3F00A2D872 /* FRPGalleryViewController.xib */; };
+		71436DDC1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		71436DD51CF2EF3F00A2D872 /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
 		71436DD61CF2EF3F00A2D872 /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
 		71436DD71CF2EF3F00A2D872 /* FRPGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRPGalleryViewController.xib; sourceTree = "<group>"; };
+		71436DDA1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
+		71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				71436DD51CF2EF3F00A2D872 /* FRPGalleryViewController.h */,
 				71436DD61CF2EF3F00A2D872 /* FRPGalleryViewController.m */,
 				71436DD71CF2EF3F00A2D872 /* FRPGalleryViewController.xib */,
+				71436DDA1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.h */,
+				71436DDB1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m */,
 				71436DCA1CF2ED7B00A2D872 /* Assets.xcassets */,
 				71436DCC1CF2ED7B00A2D872 /* LaunchScreen.storyboard */,
 				71436DCF1CF2ED7B00A2D872 /* Info.plist */,
@@ -152,6 +157,7 @@
 				71436DD81CF2EF3F00A2D872 /* FRPGalleryViewController.m in Sources */,
 				71436DC31CF2ED7B00A2D872 /* AppDelegate.m in Sources */,
 				71436DC01CF2ED7B00A2D872 /* main.m in Sources */,
+				71436DDC1CF2EFBE00A2D872 /* FRPGalleryFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

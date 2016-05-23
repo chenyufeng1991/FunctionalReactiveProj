@@ -8,8 +8,11 @@
 
 #import "FRPGalleryViewController.h"
 #import "FRPGalleryFlowLayout.h"
+#import "FRPCell.h"
 
 @interface FRPGalleryViewController ()
+
+@property (nonatomic, strong) NSArray *photoArray;
 
 @end
 
@@ -28,31 +31,14 @@ static NSString * const reuseIdentifier = @"Cell";
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
-    
-}
+    self.title = @"图库";
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+    [self.collectionView registerClass:[FRPCell class] forCellWithReuseIdentifier:reuseIdentifier];
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
-*/
 
 #pragma mark <UICollectionViewDataSource>
 

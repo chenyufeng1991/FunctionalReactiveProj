@@ -31,7 +31,7 @@ static NSString * const reuseIdentifier = @"Cell";
     return self;
 }
 
-- (void)viewDidLoad
+- (void)viewDidLoad  
 {
     [super viewDidLoad];
     self.title = @"图库";

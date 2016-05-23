@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FRPGalleryViewController.h
 //  FunctionalReactiveDemo
 //
 //  Created by chenyufeng on 16/5/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FRPGalleryViewController : UICollectionViewController
 
 @end
-

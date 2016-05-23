@@ -8,7 +8,3 @@ pod '500px-iOS-api', '1.0.4'
 pod 'SVProgressHUD', '0.9'
 
 end
-
-target "FunctionalReactiveDemoTests" do
-
-end
